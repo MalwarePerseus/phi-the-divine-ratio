@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route} from 'react-router-dom';
+import { Switch, Route, Redirect} from 'react-router-dom';
 
 import './App.css';
 
@@ -18,6 +18,7 @@ const App = () => {
 				<Route exact path='/illustrations' component={Illustrations} />
 				<Route exact path='/diy' component={TIY} />
 				<Route exact path='/tryityourself' component={TIY} />
+				<Redirect to='/' />
 			</Switch>
 		</>	
 	);
