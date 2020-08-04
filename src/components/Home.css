@@ -10,3 +10,11 @@
 	text-align: center;
 	color: white;
 }
+
+section {
+	content: '';
+	background-color: black;
+	border-radius: 0 0 100% 100% / 0 0 100% 100%;
+	overflow: hidden;
+/*	transform: scaleX(1.5);
+*/}
