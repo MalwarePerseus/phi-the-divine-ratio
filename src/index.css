@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Grand+Hotel&display=swap');
 
 *{
 	margin:0;
 	padding: 0;
 	box-sizing: 0;
-	font-family: "Muli", sans-serif;
+	font-family: "Cookie", sans-serif;
 }
 
 .navbar{
@@ -13,12 +14,12 @@
 }
 
 .navbar-brand{
-	font-size: 1.9rem !important;
+	font-size: 2.9rem !important;
 	colour: #565387 !important;	
 }
 
 .navbar a {
-	font-size: 1.3rem;
+	font-size: 2.0rem;
 	text-transform: capitalize;
 }
 
@@ -33,7 +34,7 @@
 
 @media (max-width: 991px) {
 	.navbar-brand {
-		font-size: 1.5rem !important;
+		font-size: 2.2rem !important;
 	}
 
 	.menu_active {

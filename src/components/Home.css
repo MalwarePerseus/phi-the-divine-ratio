@@ -2,6 +2,10 @@
 	margin-top: -12rem;
 }
 
+.pushup2 {
+	margin-top: -25rem;
+}
+
 .pushleft {
 	margin-left: 10rem;
 }
@@ -9,7 +13,9 @@
 .hede{
 	text-align: center;
 	color: white;
+	font-size: 50pt;
 }
+
 
 section {
 	content: '';
@@ -18,3 +24,15 @@ section {
 	overflow: hidden;
 /*	transform: scaleX(1.5);
 */}
+
+div #content{
+	text-align: center;
+}
+
+div #content h2{
+	font-size: 30pt;
+}
+
+div #content p{
+	font-size: 18pt;	
+}
