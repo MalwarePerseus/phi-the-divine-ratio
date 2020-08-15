@@ -2,6 +2,11 @@ import React from 'react';
 import Particless from './Particless.jsx';
 import Card from './Card';
 import MainAll from './FetchImages/gdratioMain.json';
+// import Nature from './FetchImages/gdratioNature.json';
+// import Pdesign from './FetchImages/gdratioProductDesign.json';
+// import Architecture from './FetchImages/gdratioArchitecture.json';
+// import Design from './FetchImages/gdratioDesign.json';
+// import Art from './FetchImages/gdratioArt.json';
 
 const Illustrations = ()=> {
 	return (
@@ -20,10 +25,10 @@ const Illustrations = ()=> {
 									return( <Card 
 										key={ind}
 										imgsrc={val.url}	
-									/>
-								);
-								})
+									/>)
+									})		
 							}
+
 						</div>
 					</div>
 				</div>

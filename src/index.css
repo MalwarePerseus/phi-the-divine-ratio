@@ -15,7 +15,7 @@
 
 .navbar-brand{
 	font-size: 2.9rem !important;
-	colour: #565387 !important;	
+	color: #fff !important;	
 }
 
 .navbar a {
@@ -50,4 +50,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.img-responsive {
+    width: auto;
+    height: 250px;
 }
