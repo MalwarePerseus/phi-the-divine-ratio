@@ -1,6 +1,7 @@
 import React from 'react';
 import Particless from './Particless.jsx';
 import Card from './Card';
+import MainAll from './FetchImages/gdratioMain.json';
 
 const Illustrations = ()=> {
 	return (
@@ -13,15 +14,20 @@ const Illustrations = ()=> {
 			<div className="container-fluid mb-5">
 				<div className="row">
 					<div className="col-10 mx-auto">
-						<div className="row gy-4">
-							<div className="col-md-4 col-10 mx-auto">
-
-							</div>
+						<div className="row gy-4">			
+							{
+								MainAll.map((val, ind) => {
+									return( <Card 
+										key={ind}
+										imgsrc={val.url}	
+									/>
+								);
+								})
+							}
 						</div>
 					</div>
 				</div>
 			</div>
-			<Card />			
 		</>
 	);
 };
