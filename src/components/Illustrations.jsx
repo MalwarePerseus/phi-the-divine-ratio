@@ -14,7 +14,7 @@ const Illustrations = ()=> {
 			<section id='header' className='mx-auto pushup'>
 				<img src='images/illusion20.gif' alt="" className="pushleft" width="1000px" height="600px" /> 
 			</section>
-			<div className="pushup hede">Welcome to The Illustrations Component Page</div>
+			<div className="pushup hede">Illustrations</div>
 			<Particless />
 			<div className="container-fluid mb-5">
 				<div className="row">
