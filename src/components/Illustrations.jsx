@@ -1,6 +1,7 @@
 import React from 'react';
 import Particless from './Particless.jsx';
 import Card from './Card';
+import SortButtons from './SortButtons';
 import MainAll from './FetchImages/gdratioMain.json';
 // import Nature from './FetchImages/gdratioNature.json';
 // import Pdesign from './FetchImages/gdratioProductDesign.json';
@@ -16,6 +17,7 @@ const Illustrations = ()=> {
 			</section>
 			<div className="pushup hede">Illustrations</div>
 			<Particless />
+			<SortButtons />
 			<div className="container-fluid mb-5">
 				<div className="row">
 					<div className="col-10 mx-auto">
