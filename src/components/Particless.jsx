@@ -47,7 +47,7 @@ const Particless = () => {
                 		"value": 12,
                 		 "density": { 
                 		 	"enable": true,
-                		 	"value_area": 100,
+                		 	"value_area": 85,
                 		 	}
                 		},
                 	
