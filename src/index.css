@@ -56,3 +56,21 @@ code {
     width: auto;
     height: 250px;
 }
+
+.sortybuts{
+	margin-top: 16px;
+	margin-bottom: 30px;
+	margin-left: 25rem;
+	margin-right: 2rem;
+	font-size: 1.4em;
+}
+
+.sortybuts button {
+	padding : 10px 20px 10px 20px;
+	border-radius: 50px;
+	border: none;
+}
+
+.sortybuts :hover{
+	background: linear-gradient(45deg, rgb(0, 128, 255) , rgb(65, 255, 144));
+}
