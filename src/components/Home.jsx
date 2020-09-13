@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import Particless from './Particless.jsx'
 import HomeContent from './HomeContent.jsx';
-
+import Footer from './Footer.jsx';
 const Home = () => {
 	return (
 		<>
@@ -12,6 +12,7 @@ const Home = () => {
 			<div className="pushup hede">Phi φ | The Golden Ratio </div>
 			<Particless />
 			<HomeContent />
+			<Footer />
 		</>
 	);
 };

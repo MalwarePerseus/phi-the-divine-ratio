@@ -1,79 +1,46 @@
 import React from 'react';
-import  './diy.css';
+// import  './diy.css';
+import Particless from './Particless';
+import Footer from './Footer';
+import ScriptTag from 'react-script-tag';
+
 
 const TIY = ()=> {
 	return (
 		<>	
+			<section id='header' className='mx-auto pushup'>
+				<img src='images/illusion20.gif' alt="" className="pushleft" width="1000px" height="600px" /> 
+			</section>
+			<div className="pushup hede">Try it Yourself</div>
+			<Particless/>
+			<div className="container col-md-10"><center>
 			<span>
-				<h1>Welcome To the Try it Yourself Component Page</h1>
-				<h1>Golden Ratio Generator</h1>
-				<h2>Check golden ratio on any image</h2>
+				<h1>Check The Golden Ratio On Any Image</h1>
+				
 					<h4>Upload an image and check the proportions with a fibonacci golden spiral overlay</h4>
 			</span>
 
-			<div >
-				<input type='file' id="image_upload" className="inputfile" />
-				<label htmlFor="image_upload" className="button btnPush btnOrange btnUpload">Upload a new background</label>
-				<small>or paste it (<span className="paste-key">CTRL</span> + v)</small>
-			</div>
-
-			<div className="with-frame">
-				<center>
-					<canvas id="mainCanvas" width="545" height="355"></canvas>
-				</center>
-			</div>
-	{/* 
-			<div className="start-hint">
-				Move the golden spiral overlay!
-				<img className="pointer-arrow" src="/images/arrow.png" alt="Arrow" />
-			</div> */}
-
-			<div className="controls">
-				<button id="flip">
-					Flip axis
-				</button>
-				<button id="invertColor">
-					Invert color
-				</button>
-				{/* <button onClick= () => {window.location.reload()}>
-					Reset
-				</button> */}
-			</div>
-
-			<br />
-
-			<div>
-  				<img className="wave-art-image" src="/images/golden-ratio-wave-art.jpg" alt="Golden ratio wave art" />
-			</div>
-
-				<br />
-	
-			<script src="./diy.js"></script>
-
-
-			<div>
-			<canvas id="myCanvas" width="300" height="300" ></canvas>
-    {/* <script type="text/javascript">
-        var c=document.getElementById("myCanvas");
-        var cxt=c.getContext("2d");
-        var centerX = 150;
-        var centerY = 150;
-        cxt.moveTo(centerX, centerY);
-    
-        var gap = 1.8; // increase this for spacing between spiral lines        
-        var STEPS_PER_ROTATION = 60; // increasing this makes the curve smoother
-    
-        var increment = 2*Math.PI/STEPS_PER_ROTATION;		
-        var theta = increment;
-        while( theta < 20*Math.PI) {
-           var newX = centerX + theta * Math.cos(theta) * gap; 
-           var newY = centerY + theta * Math.sin(theta) * gap; 
-           cxt.lineTo(newX, newY);
-           theta = theta + increment;
-        }
-        cxt.stroke(); // draw the spiral
-    </script> */}
-			</div>
+			<ScriptTag src="./diy.js" type="text/javascript"/>
+			</center>
+			<label className="input shadow-lg"><input type="file" id="inp"/>Upload Image</label><center>
+			<canvas id="canvas" className="meracanvs"></canvas>
+			<center><img className="sspiral" src="./images/Fibonacci_spiral.svg" alt=""/></center>
+			<hr/>
+			<h1>Check if You're Face is in the Divine Ratio!</h1>
+			
+			</center>
+			<ScriptTag src="./diy1.js" type="text/javascript"/>
+			<label className="input shadow-lg"><input type="file" id="imp"/>Upload Selfie!</label><center>
+			<canvas id="canvasfc" className="meracanvsfc"></canvas>
+			<center><img className="sface" src="./images/facehigh.png" alt=""/></center>
+			<hr/>
+			<h2>Try It Yourself on the Monalisa Painting!</h2> 
+				<iframe width='800' height='586' title="monalisa" className="hez"  src='https://www.wolframcloud.com/obj/4dfff556-98c7-4e36-b72c-078529d0cf1e' frameborder='0'></iframe>
+			<hr/>
+			<h1>Use the Tool used for Measuring Golden Ratio! Virtually!</h1>
+			<iframe width='700' height='550' title="scale"  className="hez" src='https://www.wolframcloud.com/obj/83a4d76b-6210-4959-a56c-8eb6f72b3fb1' frameborder='0'></iframe>
+			</center></div>
+			<Footer />
 		</>
 	);
 };

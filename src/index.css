@@ -58,10 +58,10 @@ code {
 }
 
 .sortybuts{
-	margin-top: 16px;
+	margin-top: 25px;
 	margin-bottom: 30px;
-	margin-left: 25rem;
-	margin-right: 2rem;
+	margin-left: 21rem;
+	margin-right: 15rem;
 	font-size: 1.4em;
 }
 
@@ -73,4 +73,110 @@ code {
 
 .sortybuts :hover{
 	background: linear-gradient(45deg, rgb(0, 128, 255) , rgb(65, 255, 144));
+}
+
+.homecont{
+	margin-top: 25px;
+}
+
+.jbbl{ 
+	width: 27%;
+}
+
+.jbblsm{ 
+	border-radius: 15px;
+	width: 35%;
+}
+
+.jbblsms{ 
+	border-radius: 15px;
+	width: 65%;
+	height: 150px;
+}
+.jbblsmsm{ 
+	width: 65%;
+	height: 150px;
+}
+
+.jbblb{
+	width: 27%;
+	border-radius: 20px;
+}
+
+
+.jbblsmsms{ 
+	width: 55%;
+	height: 250px;
+	margin-top: -5px;
+}
+
+.facewalli{
+	width: 25%;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	margin-top: -18px;
+}
+
+.foote{
+	background : linear-gradient(45deg, rgb(165, 182, 245), rgb(250, 176, 238));
+	text-align: center;
+	font-size: 29px;
+	padding-top: 7px;
+	padding-bottom: -5px;
+}
+
+.aboutpg{
+	font-size: 29px;
+}
+
+.meracanvs{
+
+	
+	border: 5px dashed sandybrown;
+	height: 490px;
+	width : 780px;
+	margin-left: 0rem;
+	margin-bottom: -42px;
+}
+
+.sspiral{
+	margin-top: -29rem;
+	height: 500px;
+
+}
+.meracanvsfc{
+	border: 5px dashed sandybrown;
+	height: 620px;
+	width: 500px;
+	margin-left: 0rem;
+}
+
+.sface{
+	margin-top: -42rem;
+	width: 30rem;
+}
+
+.hez{
+	margin-left: 10rem;
+}
+
+input[type=file]{
+	display: none;
+}
+
+.input{
+	border: 4px solid cyan;
+	border-radius: 20px;
+	display: inline-block;
+	margin-left: 30rem;
+	margin-bottom: 10px;
+	cursor: pointer;
+	font-size: 25px;
+	padding: 5px
+}
+
+.gitlog{
+	width: 60px;
+	margin-top: -30px;
+	margin-bottom: 5px;
 }
