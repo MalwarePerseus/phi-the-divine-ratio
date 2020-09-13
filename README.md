@@ -11,6 +11,12 @@ I plan to give this Project a huge Upgrade soon, where, i'll use the Posenet Lib
 Hope You Like my Project.
 
 ## Technologies Used
+- React JS
+- Bootstrap 5 alpha
+- Google Fonts
+- Node JS API fetches for Getting the Images
+- Particle js
+- HTML Canvas
 
 ## Instructions
 1. Insure that you have an Internet Connection.
