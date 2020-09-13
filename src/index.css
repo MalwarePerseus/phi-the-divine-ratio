@@ -180,3 +180,14 @@ input[type=file]{
 	margin-top: -30px;
 	margin-bottom: 5px;
 }
+
+.abt{
+	border: 4px solid cyan;
+	border-radius: 20px;
+}
+
+.abtn{
+	border: 4px solid tomato;
+	border-radius: 20px;
+
+}

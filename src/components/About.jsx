@@ -12,7 +12,7 @@ const About = ()=> {
 			<div id='content' className='aboutpg mx-auto col-md-10'>
 				<h1>The Project</h1>
 					<h2>Project Description</h2>
-						<div className="container abtpdes shadow-lg mb-4">
+						<div className="container abt shadow-lg mb-4">
 						The Project that I've created is a Really fun to do site. Anyone can Understand the History and Underlying phenomenon of the Golden Ratio through it, and can see Illustrations or Try it on his/her own images. Thus being able to Identify The Golden Ratio in Everyday Objects Easily. 
 							
 						<br/>	I've given it stunning Graphics using the Particles.js and I've used the ALPHA version of Bootstrap 5, which has just come out! and the main framework is the latest React.js 16.
@@ -22,7 +22,7 @@ const About = ()=> {
 							Hope You Like my Project.
 						</div>
 					<h2>Technologies Used</h2>
-					<div className="container abt" align="left">
+					<div className="container abtn" align="left">
 						<ul className="mx-5">
 							<li>React JS</li>
 							<li>Bootstrap <b>5 alpha</b></li>
@@ -33,7 +33,7 @@ const About = ()=> {
 						</ul>
 					</div>	
 					<h2>Project Highlights</h2>
-					<div className="container shadow-lg" align="left">
+					<div className="container abt shadow-lg" align="left">
 						<ul>
 							<li>The Illustrations Page uses API fetch to Scrap imaged feom Google, and Put it in a JSON file, which is then Mapped through and Images are shown/sorted.</li>
 							<li>The Whole website uses Bootstrap 5 which has just arrived and is still in Alpha Version</li>
@@ -44,7 +44,7 @@ const About = ()=> {
 						</ul>
 					</div>
 				<h1>About the Dev</h1>
-					<p>My Name is Deepak Singh, & I'm a Student of Class 11A in Army Public School, Delhi Cantt.
+					<p className="abtn">My Name is Deepak Singh, & I'm a Student of Class 11A in Army Public School, Delhi Cantt.
 						I'm a Completely self taught Developer and love Minimalistic B&W Designing.
 						My Main Powers are Javascipt, Python, PHP & Hardware. Hope that You Like My submission!</p>		 
 			</div>
